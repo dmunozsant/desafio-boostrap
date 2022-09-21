@@ -46,9 +46,11 @@
     <header>
         <img src="imagenes/img-body.jpg" alt="Imagen de una enfermera">
     </header>
-    <main>
-        <section class="apuntes_articulo">
+    <main class="py-3">
+      <div class="container-fluid">
+        <section class="row">
             <h1 class="bg-red">Contacto</h1>
+            <article class="col-sm-12 col-md-12 col-lg-8">
             <form action="envio.php" class="formulario">
                 <label for="nombre">Nombre y Apellido:</label>
                 <input type="text" id="nombre" placeholder="Ingrese su nombre" required="">
@@ -66,12 +68,15 @@
                 <input type="reset" name="cancelar">
                 <input type="submit" name="Enviar">
             </form>
+            
             <iframe class="formulario"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.104330867019!2d-57.5627150855585!3d-37.99802687971933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584deac3e586685%3A0xb868273df999ea4d!2sAv.%20Col%C3%B3n%203629%2C%20B7600FZD%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1659573919050!5m2!1ses!2sar"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- aca puedo colocar el mapa -->
+                <!-- aca puedo colocar el mapa -->
+            </article>
         </section>
+      </div>
     </main>
     <footer>
         <h3 class="text-center bg-red text-color">Seguínos en nuestras redes sociales</h3>
