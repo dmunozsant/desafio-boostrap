@@ -1,0 +1,45 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* GENERALES:  */
+
+/* MIXIN CON VALORES DE FLEX */
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* EXTEND */
+
+.mayuscula {
+    text-transform: uppercase;
+}
+
+
+h1 {
+    @extend .mayuscula;
+    /*text-transform: capitalize; transforma en mayusculas o minusculas o primera letra en may y las demas en min*/
+    font-size: 3rem;
+    color: white;
+}
+
+h2 {
+    @extend .mayuscula;
+    font-size: 3rem;
+}
+
+h3 {
+    @extend .mayuscula;
+    font-size: 2rem;
+}

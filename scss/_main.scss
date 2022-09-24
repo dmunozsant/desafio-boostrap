@@ -1,0 +1,56 @@
+
+section  {
+    p{
+        font-size: 2rem;
+        line-height: 2.2rem;
+        /*interlineado*/
+    }
+}
+
+
+/*selectores de clase, se expresan con un punto*/
+.text-center {
+    text-align: center;
+}
+
+.text-colornav {
+    color: $color-principal;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 20px
+    /*negrita*/
+}
+
+/* MAP - GET : COLORES */
+
+$colores: (
+    blanco:white,
+    rosa: rgb(243, 168, 190),
+    claro: rgba(193, 209, 225, 0.9)
+);
+
+.text-color {
+    color: map-get($colores, blanco);
+}
+
+.bg-red {
+    background-color: $color-principal;
+}
+
+.bg-pink{
+    background-color: map-get($colores, rosa);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.bg-light {
+    background-color: map-get($colores, claro );
+}
+
+
+.main-sticky{
+    position: sticky;
+    top: 10px;
+    background-color: $color-principal;
+}

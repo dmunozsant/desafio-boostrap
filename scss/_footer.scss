@@ -1,0 +1,30 @@
+/* FOOTER CON FLEXBOX */
+
+.redesSociales {
+    @include flex;
+}
+
+/*box modeling*/
+.apuntes-articulo {
+    width: 90%;
+    height: auto;
+    /* margin: 50px; */
+    margin: 40px auto;
+    padding: 10px 10px;
+    border: solid $bordes 2px;
+    /* overflow-y si hay desbordamiento, pero deje mi alto automático */
+}
+
+.nav-listas{
+    display: inline-block;
+    padding-left: 1em;
+}
+
+.formulario{
+    padding: 1em;
+}
+
+.mainVideo {
+    @include flex;
+    flex-direction: column;
+}

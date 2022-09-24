@@ -1,0 +1,27 @@
+
+/* HEADER - ENCABEZADO  */
+
+nav {
+    ul {
+        list-style: none;
+    }
+}
+
+header{
+    img {
+        width:100%;
+    }
+} 
+
+header {
+    padding-top: 500px;
+    border-color: $color-principal;
+    padding: 6px 20px;
+}
+
+
+.nav-sticky{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}

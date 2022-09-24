@@ -1,0 +1,5 @@
+SEO optimizado con etiquetas meta, atributo alt, textos, títulos. 
+SASS 2: 
+extend en general.scss
+map-get en main.scss
+declaro un mixin en general.scss y lo utilizo en footer.scss
